@@ -1,1 +1,0 @@
-# kurinkurin.github.io
