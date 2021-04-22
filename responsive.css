@@ -1,0 +1,72 @@
+/*スマホ画面*/
+@media screen and (max-width: 670px) {
+    * {
+        box-sizing: border-box; 
+    }
+    body {
+        clear: both;
+    }
+    .logo {
+        width: 20%;
+        padding: 20px 0 0 20px;
+    }
+    .header-menu {
+        display: none;
+    }
+    .tel {
+        border-bottom: 1px solid rgb(189, 189, 189);
+        width: 100%;
+        text-align: right;
+    }
+    /*メニューアイコン*/
+    .fas {
+        display: block;
+        visibility: visible;
+        padding-left: 40px;
+        padding-top: 20px;
+        color: rgb(255, 115, 0);
+    }
+    /*メイン*/
+    .slideshow {
+        width: 90%;
+        padding-top: 40px;
+    }
+    .main-contents {
+        display: flex;
+        flex-flow: column;
+        justify-content: space-between;
+    }
+    .contents {
+        width: 100%;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+    .order-step {
+        display: flex;
+        flex-flow: column;
+        justify-content: space-between;
+    }
+    .step1, .step2, .step3, .step4 {
+        width: 80%;
+        margin: 0 auto;
+    }
+    .step1 p {
+        width: 60%;
+    }
+    .sentence {
+        width: 70%;
+        margin: 0 auto;
+    }
+    /*オレンジボタン*/
+    .orange-btn {
+        width: 80%;
+    }
+    /*よくあるご質問*/
+    .faq {
+        width: 80%;
+    }
+    .voice {
+        width: 100%;
+    }
+
+}
