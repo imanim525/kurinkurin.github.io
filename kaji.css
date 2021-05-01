@@ -19,7 +19,7 @@ a {
     background-color:#fff;
 }
 /*メニューアイコン*/
-.fas {
+.hamburger-menu, .menu-content {
     visibility: hidden;
 }
 /*メニューアイコン終わり*/
