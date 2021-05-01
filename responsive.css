@@ -31,6 +31,9 @@
         color: rgb(255, 115, 0);*/
     }
     /*ハンバーガーメニュー*/
+    .hamburger-menu, .menu-content {
+        visibility: visible;
+    }
     .menu-btn {
         position: fixed;
         top: 15px;
